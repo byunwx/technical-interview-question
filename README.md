@@ -8,18 +8,18 @@
 ### What is quirks mode?
 *technique to use old browser to read undifined DOCTYPE FILES. OR OLD BROWSER TO USE NEW HTML
 
-###<div> vs. <section>.
+### <div> vs. <section>.
 *visual vs .
 
-###css.
+### css.
 *Cascading Style Sheets.
 
-###HTTP . //s.
+### HTTP . //s.
 *Hyper Text Transfer Protocol //Secure.
 
-###What is the difference between <span> and <div>?
+### What is the difference between <span> and <div>?
   *
-###What is the data-* attribute?
+### What is the data-* attribute?
   *
 ###
   *
