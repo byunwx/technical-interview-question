@@ -21,5 +21,6 @@
   *
 ### What is the data-* attribute?
   *
-###
-  *
+###expression vs declaration of function
+  *expresstion = gets hoisted
+  *declaration does not
