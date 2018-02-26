@@ -21,6 +21,12 @@
   *
 ### What is the data-* attribute?
   *
-###expression vs declaration of function
+### expression vs declaration of function
   *expresstion = gets hoisted
   *declaration does not
+
+### NODE IS
+* open soruce, cross- platform javascript runtime enviroment designed to be run ourtside of browsers.
+
+### cms
+* content management system
