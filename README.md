@@ -27,6 +27,40 @@
 
 ### NODE IS
 * open soruce, cross- platform javascript runtime enviroment designed to be run ourtside of browsers.
+* Asynchronous Threading - no order
 
 ### cms
 * content management system
+
+### PHP
+* synchronous Threading - answer in ordered of request
+
+## if the string on process.argv[2] is palindrome console.log palindrome if not not palindrome
+
+var string = process.argv[2];
+var stringHalf = 10;
+var count= 0;
+
+if (string.length%2 == 0) {
+  stringHalf= string.length/2-1;
+  for (var i = 0; i < stringHalf; i++) {
+    if(string[i]==string[string.length-1-i]){
+      count+=1;
+    }
+  }
+} else {
+  stringHalf= (string.length-1)/2;
+  for (var i = 0; i < stringHalf; i++) {
+    if(string[i]==string[string.length-1-i]){
+      count+=1;
+    }
+  }
+}
+
+
+if (count==stringHalf) {
+  console.log("palindrome");
+}else{
+  console.log("not palindrome")
+}
+
