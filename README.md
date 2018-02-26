@@ -58,9 +58,12 @@ if (string.length%2 == 0) {
 }
 
 
-if (count==stringHalf) {
-  console.log("palindrome");
+if (count==stringHalf && string.length>1) {
+  console.log(process.argv[2]);
+  console.log("is palindrome");
+}else if(string.length==1){
+  console.log("You only have one letter")
 }else{
-  console.log("not palindrome")
+  console.log(process.argv[2]);
+  console.log("is not palindrome")
 }
-
