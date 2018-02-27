@@ -68,3 +68,25 @@ if (count==stringHalf && string.length>1) {
   console.log("is not palindrome")
 }
 ```
+### Write a function that outputs an array of the nth Fibonacci number.
+```javascript
+var processNum=[0, 1];
+var results=processNum[n];
+var n= process.argv[2];
+
+if(n>1){
+  for (var i = 2; i <= n; i++) {
+    var added= processNum[i-1]+processNum[i-2];
+    processNum.push(added);
+  }
+  console.log(processNum.join(" + "))
+  console.log(processNum[n]);
+}else if(n==0){
+  console.log("0");
+  console.log(processNum[n]);
+}else{
+  console.log(processNum.join(" + "))
+  console.log(processNum[n]);
+}
+
+```
