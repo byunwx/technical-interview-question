@@ -36,7 +36,7 @@
 * synchronous Threading - answer in ordered of request
 
 ## if the string on process.argv[2] is palindrome console.log palindrome if not not palindrome
-
+```javascript
 var string = process.argv[2];
 var stringHalf = 10;
 var count= 0;
@@ -67,3 +67,4 @@ if (count==stringHalf && string.length>1) {
   console.log(process.argv[2]);
   console.log("is not palindrome")
 }
+```
