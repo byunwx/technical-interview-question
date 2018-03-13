@@ -92,3 +92,4 @@ if(n>1){
 ```
 ### SQL
 * structural query language
+* schema -- skeleton structure that represents the logical view of entire database
