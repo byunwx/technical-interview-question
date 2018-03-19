@@ -93,3 +93,6 @@ if(n>1){
 ### SQL
 * structural query language
 * schema -- skeleton structure that represents the logical view of entire database
+
+### ORM
+* object relational mapping -- building method so it can be reused complex function.
