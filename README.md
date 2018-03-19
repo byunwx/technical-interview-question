@@ -96,3 +96,6 @@ if(n>1){
 
 ### ORM
 * object relational mapping -- building method so it can be reused complex function.
+
+### MVC
+* model view control
